@@ -1,10 +1,11 @@
 {
-  "name": "json-server",
+  "name": "confusion-api",
   "version": "1.0.0",
   "description": "json server serves my confusion project build with react",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/DevMoustafa97/confusion-api/issues"
   },
-  "homepage": "https://github.com/DevMoustafa97/confusion-api#readme"
+  "homepage": "https://github.com/DevMoustafa97/confusion-api#readme",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
 }
